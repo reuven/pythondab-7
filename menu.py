@@ -8,7 +8,7 @@ def menu(*args):
 	while True:
 		print('Available options are:')
 		for arg in args:
-			print(f'- {arg})
+			print(f'- {arg}')
 
 		user_choice = input('Please choose an item: ')
 
