@@ -4,6 +4,8 @@ This module was created as part of PDAB 7's  Modules and packages course.
 It contains one function, menu.
 """
 
+import sys
+
 def menu(*args):
 	while True:
 		print('Available options are:')
@@ -21,5 +23,5 @@ def menu(*args):
 	return user_choice
 
 if __name__ == "__main__":
-	menu('a','b','c')
+	menu(*sys.argv[1:])
 
