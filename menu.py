@@ -1,5 +1,7 @@
 """
-This module was created as part of PDAB 7's  Modules and packages course.
+written by Ben
+
+This module was created as part of PDAB 7's Modules and packages course.
 
 It contains one function, menu.
 """
